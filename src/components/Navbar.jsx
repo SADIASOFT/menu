@@ -1,6 +1,6 @@
-import React from 'react'
-import { MdFoodBank } from "react-icons/md";
+import React from 'react';
 import { FaRegUserCircle } from "react-icons/fa";
+import { IoFastFood } from "react-icons/io5";
 
 export default function Navbar() {
   return (
@@ -35,7 +35,7 @@ export default function Navbar() {
         
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl"><MdFoodBank className="text-purple-700 size-10" />MENU</a>
+    <a className="btn btn-ghost text-xl"><IoFastFood  className="text-purple-700 size-10" />MENU</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
